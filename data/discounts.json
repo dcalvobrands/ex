@@ -1,0 +1,25 @@
+[
+  {
+    "id": "0",
+    "description": "10% Discount was applied to this order to thank your trust in us",
+    "discount" : 10,
+    "min_revenue" : 1000,
+    "type" : "full_order"
+  },
+  {
+    "id": "1",
+    "description": "%free_units% free %product% were added to your order",
+    "category": "2",
+    "units" : 5,
+    "extra_units" : 1,
+    "type" : "extra_units"
+  },
+  {
+    "id": "2",
+    "description": "20% Discount was applied to %product%",
+    "category": "1",
+    "min_units" : 2,
+    "discount" : 20,
+    "type" : "cheapest"
+  }
+]
